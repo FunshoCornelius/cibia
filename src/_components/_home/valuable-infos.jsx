@@ -19,7 +19,7 @@ function Card({ title, description, link, linkText }) {
 
 function ValuableInfos() {
   return (
-    <section className="bg-gradient-to-r bg-black-100 md:h-[45vh] py-6 grid place-items-center text-white">
+    <section className="bg-gradient-to-r bg-black-100 py-16 grid place-items-center text-white">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-7xl mx-auto px-4 ">
         {ValuableInfosArr.map((item, index) => (
           <Card

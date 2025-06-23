@@ -44,7 +44,7 @@ function HomeAbout() {
         </div>
       </div>
       <Link
-        href="/about/who-are-we"
+        href="/membership/apply"
         className=" w-fit flex gap-3 items-center  mx-auto mt-8 bg-black-200 text-white py-2 px-6 rounded-full text-lg font-semibold hover:bg-black-300 transition duration-300 animate-bounce hover:animate-none  hover:scale-105"
       >
         <span>Apply Today</span> <CircleArrowRight className="animate-ping" />
